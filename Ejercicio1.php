@@ -51,10 +51,4 @@ $numero2 =6;
 $resultado= $numero1+$numero2;
 echo $resultado;
 echo"</br></br>";
-
-
-echo"</br></br>";
-
-
-echo"</br></br>";
 ?>
