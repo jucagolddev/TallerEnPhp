@@ -1,33 +1,54 @@
 <?php
-/*1. Crea un archivo PHP que:
-○ Defina dos variables con valores numéricos y realice operaciones aritméticas
-básicas (suma, resta, multiplicación, división, módulo).
-○ Use operadores de comparación para verificar si una variable es mayor,
-menor o igual que la otra.
-○ Usa un operador ternario para determinar si una variable es par o impar.
-○ Aplica operadores lógicos para verificar si ambas variables son mayores de
-10 y muestra un mensaje dependiendo del resultado.
-○ Implementa operadores de incremento y decremento y muestra cómo
-cambian los valores de las variables.*/
+/*1. Crea un archivo PHP que haga lo siguiente:
+○ Define variables de distintos tipos: un entero, un flotante, una cadena y un
+booleano. Luego imprime el valor y tipo de cada variable utilizando la función
+var_dump().
+○ Crea un array asociativo que contenga información de una persona (nombre,
+edad, ciudad).
+○ Define una constante llamada NOMBRE_CURSO con el valor "Programación
+PHP" y muestra su valor en pantalla.
+○ Crea una función que reciba un array de números y devuelva la suma de
+todos sus elementos. Llámala con un array de ejemplo y muestra el
+resultado.
+○ Declara una variable con el valor null y utiliza la función is_null() para
+verificar si la variable tiene valor null.*/
+$nombre="Juca";
+$apellido1="dorado";
+$apellido2="lopez";
+$edad=21;
+$altura=1.66;
+$soltero = true;
 
+var_dump($nombre);
+echo"</br></br>";
+echo"</br></br>";
+
+var_dump($edad);
+echo"</br></br>";
+
+var_dump($altura);
+echo"</br></br>";
+echo"</br></br>";
+
+$aPersona=["nombre"=>"JUCA ","apellidos"=>"DoradoLopez ","edad"=>21]; 
+var_dump($aPersona);
+echo"</br></br>";
+echo"</br></br>";
+
+define('NOMBRE_CURSO', "Programacion PHP");
+echo NOMBRE_CURSO;
+echo"</br></br>";
+echo"</br></br>";
+
+$tipo= Null;
+if (is_null($tipo)){
+    echo " suputamadre";
+}
+echo"</br></br>";
 $numero1 =4;
 $numero2 =6;
 
-$suma = $numero1 +$numero2;
-$resta= $numero1 -$numero5;
-$mult= $numero1 * $numero1;
-$div= $numero1 / $numero1;
-
-echo $suma;
+$resultado= $numero1+$numero2;
+echo $resultado;
 echo"</br></br>";
-
-echo $resta;
-echo"</br></br>";
-
-echo $mult;
-echo"</br></br>";
-
-echo $div;
-echo"</br></br>";
-
 ?>
